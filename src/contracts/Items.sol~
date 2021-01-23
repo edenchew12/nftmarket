@@ -1,0 +1,7 @@
+pragma solidity ^0.7.4;
+
+import "./ERC721.sol";
+
+contract Items is ERC721 {
+    constructor() public ERC721("Items", "ITEMS") {}
+}
